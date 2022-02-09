@@ -1,0 +1,9 @@
+{
+	"name": "mydf0902",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "53ee7c9b-9c1f-4796-9b5b-a55394a434df",
+		"tenantId": "cb1dc290-5566-4c4d-aad6-c3c7e260ff90"
+	}
+}

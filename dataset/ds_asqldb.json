@@ -1,0 +1,27 @@
+{
+	"name": "ds_asqldb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_asqldb",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "table_name",
+				"type": "varchar"
+			},
+			{
+				"name": "last_processed_value",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "customer1"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
